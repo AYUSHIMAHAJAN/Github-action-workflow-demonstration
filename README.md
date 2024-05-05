@@ -40,6 +40,7 @@ jobs: <br>
         run: | <br>
           ls ${{ github.workspace }} <br>
       - run: echo "🍏 This job's status is ${{ job.status }}." <br>
+    
 3)Click Commit changes.
 4)In the "Propose changes" dialog, select either the option to commit to the default branch or the option to create a new branch and start a pull request. Then click Commit changes or Propose changes.
 
@@ -47,9 +48,9 @@ jobs: <br>
 Committing the workflow file to a branch in your repository triggers the push event and runs your workflow.If you chose to start a pull request, you can continue and create the pull request, but this is not necessary for the purposes of this quickstart because the commit has still been made to a branch and will trigger the new workflow.
 
 # You can View the workflow using given steps:
-1)On GitHub.com, navigate to the main page of the repository.
-2)Under your repository name, click  Actions.
-3)In the left sidebar, click the workflow you want to display, in this example "GitHub Actions Demo."
+1)On GitHub.com, navigate to the main page of the repository.<br>
+2)Under your repository name, click  Actions.<br>
+3)In the left sidebar, click the workflow you want to display, in this example "GitHub Actions Demo."<br>
 
 4)From the list of workflow runs, click the name of the run you want to see, in this example "AYUSHIMAHAJAN is testing out GitHub Actions."
 5)In the left sidebar of the workflow run page, under Jobs, click the Explore-GitHub-Actions job.
