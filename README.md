@@ -1,6 +1,6 @@
 Link of Github Repository where github action has been implemented:
-
-
+ 
+https://github.com/AYUSHIMAHAJAN/Tazakhbre
 
 # Introduction:
 
@@ -52,16 +52,16 @@ jobs: <br>
 Committing the workflow file to a branch in your repository triggers the push event and runs your workflow.If you chose to start a pull request, you can continue and create the pull request, but this is not necessary for the purposes of this quickstart because the commit has still been made to a branch and will trigger the new workflow.
 
 # You can View the workflow using given steps:
-1)On GitHub.com, navigate to the main page of the repository.<br>
-2)Under your repository name, click  Actions.<br>
-3)In the left sidebar, click the workflow you want to display, in this example "GitHub Actions Demo."<br>
-4)From the list of workflow runs, click the name of the run you want to see, in this example "AYUSHIMAHAJAN is testing out GitHub Actions."<br>
+1)On GitHub.com, navigate to the main page of the repository.<br><br>
+2)Under your repository name, click  Actions.<br><br>
+3)In the left sidebar, click the workflow you want to display, in this example "GitHub Actions Demo."<br><br>
+4)From the list of workflow runs, click the name of the run you want to see, in this example "AYUSHIMAHAJAN is testing out GitHub Actions."<br><br>
 ![image](https://github.com/AYUSHIMAHAJAN/Github-action-workflow-demonstration/assets/96366141/b2111906-1b84-4fbb-b0a5-75e384ac2850)<br>
 
-5)In the left sidebar of the workflow run page, under Jobs, click the Explore-GitHub-Actions job.<br>
+5)In the left sidebar of the workflow run page, under Jobs, click the Explore-GitHub-Actions job.<br><br>
 ![image](https://github.com/AYUSHIMAHAJAN/Github-action-workflow-demonstration/assets/96366141/43214dd6-3d9d-4a2b-a235-16f20341fc77) <br>
 
-6)The log shows you how each of the steps was processed. Expand any of the steps to view its details.<br>
+6)The log shows you how each of the steps was processed. Expand any of the steps to view its details.<br><br>
 ![image](https://github.com/AYUSHIMAHAJAN/Github-action-workflow-demonstration/assets/96366141/9702a786-ea03-4562-b7f2-1a882a400eb8)<br>
 
 
