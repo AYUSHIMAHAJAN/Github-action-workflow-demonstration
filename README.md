@@ -1,3 +1,7 @@
+Link of Github Repository where github action has been implemented:
+
+
+
 # Introduction:
 
 GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline.These Actions are used to create workflows that run tests whenever you push a change to your repository, or that deploy merged pull requests to production.Setting up Continuous Integration (CI) ensures that code is automatically built and tested whenever changes are pushed to the repository.I will be focusing on Github Actions that create Workflows
@@ -52,9 +56,17 @@ Committing the workflow file to a branch in your repository triggers the push ev
 2)Under your repository name, click  Actions.<br>
 3)In the left sidebar, click the workflow you want to display, in this example "GitHub Actions Demo."<br>
 4)From the list of workflow runs, click the name of the run you want to see, in this example "AYUSHIMAHAJAN is testing out GitHub Actions."<br>
+![image](https://github.com/AYUSHIMAHAJAN/Github-action-workflow-demonstration/assets/96366141/b2111906-1b84-4fbb-b0a5-75e384ac2850)<br>
+
 5)In the left sidebar of the workflow run page, under Jobs, click the Explore-GitHub-Actions job.<br>
+![image](https://github.com/AYUSHIMAHAJAN/Github-action-workflow-demonstration/assets/96366141/43214dd6-3d9d-4a2b-a235-16f20341fc77) <br>
+
 6)The log shows you how each of the steps was processed. Expand any of the steps to view its details.<br>
+![image](https://github.com/AYUSHIMAHAJAN/Github-action-workflow-demonstration/assets/96366141/9702a786-ea03-4562-b7f2-1a882a400eb8)<br>
+
 
 # For example, you can see the list of files in your repository:
+![image](https://github.com/AYUSHIMAHAJAN/Github-action-workflow-demonstration/assets/96366141/d39b785f-64e6-44d7-8c9e-924d540f9cb9) <br>
+
 
 * Hence Workflows using Github Action is successfully implemented.
