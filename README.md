@@ -15,11 +15,12 @@ A workflow must contain the following basic components:<br>
 * Each step can either run a script that you define or run an action, which is a reusable extension that can simplify your workflow. 
 
 # Let’s start with creating first workflow:
-1)In a repository on GitHub.com, create a workflow file called github-actions-demo.yml in the .github/workflows directory. To do this:
-If the .github/workflows directory already exists, navigate to that directory on GitHub, click Add file, then click Create new file, and name the file github-actions-demo.yml.
-If your repository doesn't have a .github/workflows directory, go to the main page of the repository on GitHub, click Add file, then click Create new file, and name the file .github/workflows/github-actions-demo.yml. This creates the .github and workflows directories and the github-actions-demo.yml file in a single step.<br>
+1)In a repository on GitHub.com, create a workflow file called github-actions-demo.yml in the .github/workflows directory. 
+# To do this:
+* If the .github/workflows directory already exists, navigate to that directory on GitHub, click Add file, then click Create new file, and name the file github-actions-demo.yml.
+* If your repository doesn't have a .github/workflows directory, go to the main page of the repository on GitHub, click Add file, then click Create new file, and name the file .github/workflows/github-actions-demo.yml. This creates the .github and workflows directories and the github-actions-demo.yml file in a single step.
 
-2) Copy the following YAML contents into the github-actions-demo.yml file for ex:<br>
+2)Copy the following YAML contents into the github-actions-demo.yml file for ex:<br>
 
 name: GitHub Actions Demo<br>
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀 <br>
