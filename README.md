@@ -50,10 +50,10 @@ Committing the workflow file to a branch in your repository triggers the push ev
 # You can View the workflow using given steps:
 1)On GitHub.com, navigate to the main page of the repository.<br>
 2)Under your repository name, click  Actions.<br>
-3)In the left sidebar, click the workflow you want to display, in this example "GitHub Actions Demo."
-4)From the list of workflow runs, click the name of the run you want to see, in this example "AYUSHIMAHAJAN is testing out GitHub Actions."
-5)In the left sidebar of the workflow run page, under Jobs, click the Explore-GitHub-Actions job.
-6)The log shows you how each of the steps was processed. Expand any of the steps to view its details.
+3)In the left sidebar, click the workflow you want to display, in this example "GitHub Actions Demo."<br>
+4)From the list of workflow runs, click the name of the run you want to see, in this example "AYUSHIMAHAJAN is testing out GitHub Actions."<br>
+5)In the left sidebar of the workflow run page, under Jobs, click the Explore-GitHub-Actions job.<br>
+6)The log shows you how each of the steps was processed. Expand any of the steps to view its details.<br>
 
 # For example, you can see the list of files in your repository:
 
