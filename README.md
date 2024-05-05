@@ -11,32 +11,34 @@ Workflows are defined in the .github/workflows directory in a repository, and a 
 # Basics of Workflows:
 A workflow must contain the following basic components:<br>
 * One or more events that will trigger the workflow.
-**One or more jobs, each of which will execute on a runner machine and run a series of one or more steps.
-**Each step can either run a script that you define or run an action, which is a reusable extension that can simplify your workflow. 
+* One or more jobs, each of which will execute on a runner machine and run a series of one or more steps.
+* Each step can either run a script that you define or run an action, which is a reusable extension that can simplify your workflow. 
 
 # Let’s start with creating first workflow:
 1)In a repository on GitHub.com, create a workflow file called github-actions-demo.yml in the .github/workflows directory. To do this:
 If the .github/workflows directory already exists, navigate to that directory on GitHub, click Add file, then click Create new file, and name the file github-actions-demo.yml.
-If your repository doesn't have a .github/workflows directory, go to the main page of the repository on GitHub, click Add file, then click Create new file, and name the file .github/workflows/github-actions-demo.yml. This creates the .github and workflows directories and the github-actions-demo.yml file in a single step.
-2) Copy the following YAML contents into the github-actions-demo.yml file for ex:
-name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
-jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - name: Check out repository code
-        uses: actions/checkout@v4
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      - name: List files in the repository
-        run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+If your repository doesn't have a .github/workflows directory, go to the main page of the repository on GitHub, click Add file, then click Create new file, and name the file .github/workflows/github-actions-demo.yml. This creates the .github and workflows directories and the github-actions-demo.yml file in a single step.<br>
+
+2) Copy the following YAML contents into the github-actions-demo.yml file for ex:<br>
+
+name: GitHub Actions Demo<br>
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀 <br>
+on: [push] <br>
+jobs: <br>
+  Explore-GitHub-Actions: <br>
+    runs-on: ubuntu-latest <br>
+    steps: <br>
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event." <br>
+      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!" <br>
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}." <br>
+      - name: Check out repository code <br>
+        uses: actions/checkout@v4 <br>
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner." <br>
+      - run: echo "🖥️ The workflow is now ready to test your code on the runner." <br>
+      - name: List files in the repository <br>
+        run: | <br>
+          ls ${{ github.workspace }} <br>
+      - run: echo "🍏 This job's status is ${{ job.status }}." <br>
 3)Click Commit changes.
 4)In the "Propose changes" dialog, select either the option to commit to the default branch or the option to create a new branch and start a pull request. Then click Commit changes or Propose changes.
 
