@@ -9,8 +9,8 @@ Workflows are defined in the .github/workflows directory in a repository, and a 
 
 
 # Basics of Workflows:
-A workflow must contain the following basic components:
-**One or more events that will trigger the workflow.
+A workflow must contain the following basic components:<br>
+* One or more events that will trigger the workflow.
 **One or more jobs, each of which will execute on a runner machine and run a series of one or more steps.
 **Each step can either run a script that you define or run an action, which is a reusable extension that can simplify your workflow. 
 
